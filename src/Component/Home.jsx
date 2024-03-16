@@ -35,7 +35,7 @@ const Home=()=>{
     {/* section 1 */}
     <Box sx={{width:{md:"100%"}}} id="Section-1">
         <Box maxWidth="xl">
-        <Box className="bg-img" sx={{width:{md:"100%",position:"relative",height:{md:"600px"}}}}>
+        <Box className="bg-img" sx={{width:{md:"100%",position:"relative",height:{md:"600px",sm:"700px",xs:"750px"}}}}>
             <Box sx={{position:"absolute",top:{md:"100px",xs:"100px"},left:"50px"}}>
            <Box sx={{borderBottom:"2px solid #4b4b4b",display:"inline-block",padding:"15px"}}>
             <Typography component="h4" variant="h4" sx={{fontSize:"40px",fontWeight:"600",fontFamily:"sans-serif",color:"#4b4b4b"}}>
@@ -50,7 +50,7 @@ const Home=()=>{
            <Typography component="p" sx={{fontSize:"25px",color:"#4b4b4b"}}>
            With <span style={{fontSize:"35px",color:"#21936a"}}>0%*</span> platform fee, you can raise funds too!
             </Typography>
-            <Typography sx={{padding:"15px",backgroundColor:"#21936a",display:"inline-block",color:'white',fontWeight:"700",borderRadius:"25px",marginTop:"20px"}} component="h6" variant="h6">
+            <Typography sx={{padding:"15px",backgroundColor:"#21936a",display:"inline-block",color:'white',fontWeight:"700",borderRadius:"25px",marginTop:"20px",fontSize:{xs:"15px",sm:"20px",md:"1.25rem"}}} component="h6" variant="h6">
                 Start A Free Fundrasier
             </Typography>
            </Box>
