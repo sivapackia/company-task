@@ -35,7 +35,7 @@ const Home=()=>{
     {/* section 1 */}
     <Box sx={{width:{md:"100%"}}} id="Section-1">
         <Box maxWidth="xl">
-        <Box className="bg-img" sx={{width:{md:"100%",position:"relative",height:{md:"600px",sm:"700px",xs:"750px"}}}}>
+        <Box className="bg-img" sx={{width:{md:"100%",position:"relative"}}}>
             <Box sx={{position:"absolute",top:{md:"100px",xs:"100px"},left:"50px"}}>
            <Box sx={{borderBottom:"2px solid #4b4b4b",display:"inline-block",padding:"15px"}}>
             <Typography component="h4" variant="h4" sx={{fontSize:"40px",fontWeight:"600",fontFamily:"sans-serif",color:"#4b4b4b"}}>
